@@ -63,6 +63,10 @@
         indexAxis: 'x',
         scales: {
           x: {
+            title: {
+              display: true,
+              text: 'Strategic Value Streams'
+            },
             ticks: {
               autoSkip: false,
               maxRotation: 90,
@@ -70,7 +74,11 @@
             }
           },
           y: {
-            beginAtZero: true
+            beginAtZero: true,
+             title: {
+              display: true,
+              text: 'Actual Value * Gap'
+            }
           }
         },
         plugins: {
