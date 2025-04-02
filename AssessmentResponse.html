@@ -134,7 +134,25 @@
     </tbody>
   </table>
 </div>
-<div id="topic-communicate" class="topic-section"><h3>Topic: Communicate</h3><p>Placeholder for Communicate topic elements.</p></div>
+<div id="topic-communicate" class="topic-section"><h3>Topic: Communicate</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Element #</th>
+        <th>Description</th>
+        <th>Current (C)</th>
+        <th>Desired (D)</th>
+        <th>Value (V)</th>
+        <th>Value Gap (D-C)*V</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>2.1</td><td>High level of two way communications throughout the organization</td><td><select class="current" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></td><td><select class="desired" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option>2</option><option>3</option><option selected>4</option><option>5</option></select></td><td><select class="value" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></td><td class="gap">0</td></tr>
+      <tr><td>2.2</td><td>Management visible and available to Associates</td><td><select class="current" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></td><td><select class="desired" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option>2</option><option>3</option><option>4</option><option selected>5</option></select></td><td><select class="value" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select></td><td class="gap">6</td></tr>
+      <tr><td>2.3</td><td>Company plans are well developed and understood by all Associates</td><td><select class="current" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option></select></td><td><select class="desired" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option>2</option><option>3</option><option>4</option><option selected>5</option></select></td><td><select class="value" onchange="calculateGap(this.closest('tr'))"><option value="">--</option><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option></select></td><td class="gap">6</td></tr>
+    </tbody>
+  </table>
+</div>
 <div id="topic-get-buy-in" class="topic-section"><h3>Topic: Get Buy-In</h3><p>Placeholder for Get Buy-In topic elements.</p></div>
 <div id="topic-customer-centric" class="topic-section"><h3>Topic: Customer-Centric</h3><p>Placeholder for Customer-Centric topic elements.</p></div>
 <div id="topic-culture" class="topic-section"><h3>Topic: Culture</h3><p>Placeholder for Culture topic elements.</p></div>
