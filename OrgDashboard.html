@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assessment Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background: #f5f5f5;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+    }
+    th, td {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background: #eee;
+    }
+    .action-buttons button {
+      margin-right: 0.5rem;
+    }
+    .low-progress {
+      background-color: #ffe5e5;
+    }
+    .medium-progress {
+      background-color: #fff8dc;
+    }
+    .high-progress {
+      background-color: #e0ffe0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Assessment Overview</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Assessment Name</th>
+        <th>Status</th>
+        <th>Last Updated</th>
+        <th># Completed</th>
+        <th>Avg Value Gap</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="low-progress">
+        <td>Q1 Strategy Alignment</td>
+        <td>In Progress</td>
+        <td>Mar 30, 2025</td>
+        <td>18/45 (40%)</td>
+        <td>6.5</td>
+        <td class="action-buttons">
+          <button>View</button>
+          <button>Report</button>
+        </td>
+      </tr>
+      <tr class="high-progress">
+        <td>Leadership Comm Review</td>
+        <td>Completed</td>
+        <td>Mar 25, 2025</td>
+        <td>20/20 (100%)</td>
+        <td>7.9</td>
+        <td class="action-buttons">
+          <button>View</button>
+          <button>Report</button>
+        </td>
+      </tr>
+      <tr class="medium-progress">
+        <td>Process Optimization</td>
+        <td>Not Started</td>
+        <td>--</td>
+        <td>--</td>
+        <td>--</td>
+        <td class="action-buttons">
+          <button>Start</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
